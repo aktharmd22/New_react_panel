@@ -1,0 +1,22 @@
+/* styles.css */
+.custom-table {
+    color: #333; /* Text color */
+    border-collapse: collapse; /* Collapse table borders */
+  }
+  
+  .custom-table th {
+    background-color: #f2f2f2; /* Header background color */
+    border-bottom: 1px solid #ddd; /* Header border */
+    padding: 8px; /* Header padding */
+    text-align: left; /* Header text alignment */
+  }
+  
+  .custom-table td {
+    border-bottom: 1px solid #ddd; /* Cell border */
+    padding: 8px; /* Cell padding */
+  }
+  
+  .custom-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Even row background color */
+  }
+  
